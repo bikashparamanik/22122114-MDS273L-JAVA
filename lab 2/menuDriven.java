@@ -53,7 +53,7 @@ public class menuDriven{
                     System.out.println("");
                      break;
                 case 3:
-                    System.out.print("Enter a name  you want to remover from the array: ");
+                    System.out.print("Enter a name  you want to remove from the array: ");
                     name = scan.next();
                      for(int j=0;j<=i;j++){
                     if(names[j].compareTo(name) == 0){
